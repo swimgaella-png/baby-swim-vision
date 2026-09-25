@@ -1,0 +1,66 @@
+[
+  {
+    "orderId": "stripe_cs_sandbox_test_1789724694737_91qat",
+    "userEmail": "test-diagnostic@babyswimvision.test",
+    "userId": "sandbox_1789724694737",
+    "amountPaid": 24.9,
+    "currency": "EUR",
+    "status": "completed",
+    "lifetimeAccessGranted": true,
+    "isVipMonthFree": false,
+    "subscriptionExpiresAt": null,
+    "receiptNumber": "BSV-REC-37_91QAT",
+    "verifiedAt": "2026-09-18T09:44:54.737Z",
+    "paymentMethod": "stripe_card_sandbox",
+    "stripeSessionId": "cs_sandbox_test_1789724694737_91qat",
+    "product": {
+      "name": "Baby Swim Vision – Premium à vie",
+      "priceEur": 24.9,
+      "type": "one_time_purchase",
+      "isSubscription": false
+    }
+  },
+  {
+    "orderId": "stripe_cs_sandbox_test_1789724857154_jq6vv",
+    "userEmail": "audit-verify@babyswimvision.test",
+    "userId": "sandbox_1789724857154",
+    "amountPaid": 24.9,
+    "currency": "EUR",
+    "status": "completed",
+    "lifetimeAccessGranted": true,
+    "isVipMonthFree": false,
+    "subscriptionExpiresAt": null,
+    "receiptNumber": "BSV-REC-54_JQ6VV",
+    "verifiedAt": "2026-09-18T09:47:37.154Z",
+    "paymentMethod": "stripe_card_sandbox",
+    "stripeSessionId": "cs_sandbox_test_1789724857154_jq6vv",
+    "product": {
+      "name": "Baby Swim Vision – Premium à vie",
+      "priceEur": 24.9,
+      "type": "one_time_purchase",
+      "isSubscription": false
+    }
+  },
+  {
+    "orderId": "stripe_cs_sandbox_test_1789811569261_bv1kk",
+    "userEmail": "aquaforme-test@babyswimvision.test",
+    "userId": "sandbox_1789811569260",
+    "amountPaid": 12.45,
+    "currency": "EUR",
+    "status": "completed",
+    "lifetimeAccessGranted": true,
+    "isVipMonthFree": false,
+    "subscriptionExpiresAt": null,
+    "receiptNumber": "BSV-REC-61_BV1KK",
+    "verifiedAt": "2026-09-19T09:52:49.261Z",
+    "paymentMethod": "stripe_card_sandbox",
+    "stripeSessionId": "cs_sandbox_test_1789811569261_bv1kk",
+    "promoCode": "AQUAFORME2026",
+    "product": {
+      "name": "Baby Swim Vision – Premium à vie (Remise 50% AQUAFORME2026)",
+      "priceEur": 12.45,
+      "type": "one_time_purchase",
+      "isSubscription": false
+    }
+  }
+]

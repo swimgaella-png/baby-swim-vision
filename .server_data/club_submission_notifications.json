@@ -1,0 +1,44 @@
+[
+  {
+    "id": "notif_1789983766875_9wneg",
+    "clubId": "club_1789983766874_agb38",
+    "clubName": "Club Test Automate Propose",
+    "managerName": "",
+    "city": "Nantes",
+    "country": "France",
+    "email": "testclub@example.com",
+    "phone": "",
+    "submittedAt": "2026-09-21T09:42:46.875Z",
+    "sentTo": "swimgaella@gmail.com",
+    "status": "logged",
+    "detailsSummary": "Nantes, France • 0 photo(s)"
+  },
+  {
+    "id": "notif_1789900619089_izq7x",
+    "clubId": "club_1789900619089_0imh5",
+    "clubName": "Club Refusé Test",
+    "managerName": "Inconnu",
+    "city": "Rennes",
+    "country": "France",
+    "email": "",
+    "phone": "",
+    "submittedAt": "2026-09-20T10:36:59.089Z",
+    "sentTo": "swimgaella@gmail.com",
+    "status": "logged",
+    "detailsSummary": "Rennes, France • 0 photo(s)"
+  },
+  {
+    "id": "notif_1789900618977_20ctp",
+    "clubId": "club_1789900618976_kmdee",
+    "clubName": "Bébés de l'Odet Test Proposition",
+    "managerName": "Pierre Test",
+    "city": "Quimper",
+    "country": "France",
+    "email": "pierre@test-odet.fr",
+    "phone": "0298000000",
+    "submittedAt": "2026-09-20T10:36:58.978Z",
+    "sentTo": "swimgaella@gmail.com",
+    "status": "logged",
+    "detailsSummary": "Quimper, France • 0 photo(s)"
+  }
+]

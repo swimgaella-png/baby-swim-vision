@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 200" width="650" height="200">
+  <defs>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00B4D8" />
+      <stop offset="100%" stop-color="#185A9D" />
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#48CAE4" />
+      <stop offset="50%" stop-color="#0096C7" />
+      <stop offset="100%" stop-color="#03045E" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFFFFF" />
+
+  <!-- LEFT EMBLEM (Circular badge with baby & waves) -->
+  <g transform="translate(15, 5)">
+    <!-- Outer decorative ring -->
+    <circle cx="95" cy="95" r="82" fill="none" stroke="url(#waterGrad)" stroke-width="4" opacity="0.9" />
+    <circle cx="95" cy="95" r="76" fill="#F0F9FF" />
+
+    <!-- Water splash droplets on the left -->
+    <path d="M 12 65 C 8 58 10 50 16 50 C 22 50 24 58 20 65 C 17 69 15 69 12 65 Z" fill="#00B4D8" transform="rotate(-30 16 58)" />
+    <path d="M 5 95 C 1 89 3 83 9 83 C 15 83 17 89 13 95 C 10 98 8 98 5 95 Z" fill="#185A9D" transform="rotate(-45 9 89)" />
+    <path d="M 18 128 C 14 122 16 116 22 116 C 28 116 30 122 26 128 C 23 131 21 131 18 128 Z" fill="#48CAE4" transform="rotate(-20 22 122)" />
+
+    <!-- Wave background inside circle -->
+    <path d="M 22 105 C 50 85 90 125 130 95 C 150 80 165 95 168 110 C 170 145 140 170 95 170 C 50 170 25 140 22 105 Z" fill="#E0F2FE" opacity="0.6" />
+
+    <!-- Stylized Baby Head -->
+    <g transform="translate(95, 88)">
+      <!-- Hair curl on top -->
+      <path d="M -1 -48 C -3 -58 8 -60 6 -50 C 5 -45 1 -46 -1 -48 Z" fill="#185A9D" />
+
+      <!-- Head shape -->
+      <circle cx="0" cy="-8" r="42" fill="#FFF9F2" stroke="#185A9D" stroke-width="3.5" />
+
+      <!-- Ears -->
+      <circle cx="-42" cy="-6" r="8" fill="#FFF9F2" stroke="#185A9D" stroke-width="3" />
+      <circle cx="42" cy="-6" r="8" fill="#FFF9F2" stroke="#185A9D" stroke-width="3" />
+
+      <!-- Cheeks blush -->
+      <circle cx="-24" cy="2" r="7" fill="#FECDD3" opacity="0.7" />
+      <circle cx="24" cy="2" r="7" fill="#FECDD3" opacity="0.7" />
+
+      <!-- Eyes (Happy smiling arches or glossy dark circles) -->
+      <ellipse cx="-16" cy="-12" rx="4.5" ry="6" fill="#185A9D" />
+      <circle cx="-14.5" cy="-14" r="1.8" fill="#FFFFFF" />
+      
+      <ellipse cx="16" cy="-12" rx="4.5" ry="6" fill="#185A9D" />
+      <circle cx="17.5" cy="-14" r="1.8" fill="#FFFFFF" />
+
+      <!-- Eyebrows -->
+      <path d="M -23 -23 Q -16 -28 -9 -23" fill="none" stroke="#185A9D" stroke-width="2.5" stroke-linecap="round" />
+      <path d="M 9 -23 Q 16 -28 23 -23" fill="none" stroke="#185A9D" stroke-width="2.5" stroke-linecap="round" />
+
+      <!-- Cute Nose -->
+      <path d="M -2 -4 Q 0 -1 2 -4" fill="none" stroke="#185A9D" stroke-width="2.5" stroke-linecap="round" />
+
+      <!-- Happy Smile -->
+      <path d="M -12 6 Q 0 20 12 6" fill="#EA580C" stroke="#185A9D" stroke-width="3" stroke-linecap="round" />
+    </g>
+
+    <!-- Dynamic Wave Swaddle under chin -->
+    <path d="M 26 122 C 45 92 80 135 125 110 C 145 98 160 115 166 128 C 152 158 126 172 95 172 C 62 172 38 152 26 122 Z" fill="url(#waveGrad)" />
+    <path d="M 32 130 C 50 112 80 142 120 122 C 140 112 152 125 158 135" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.8" stroke-linecap="round" />
+  </g>
+
+  <!-- RIGHT BRAND TEXT -->
+  <g transform="translate(205, 0)">
+    <!-- Top Word: Baby -->
+    <text x="0" y="72" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="64" font-weight="900" fill="#185A9D" letter-spacing="-0.5">Baby</text>
+
+    <!-- Splash droplets top-right of Baby -->
+    <g transform="translate(180, 20)">
+      <path d="M 10 15 C 6 9 8 3 14 3 C 20 3 22 9 18 15 C 15 18 13 18 10 15 Z" fill="#185A9D" transform="rotate(35 14 9)" />
+      <path d="M 26 8 C 23 4 25 1 29 1 C 33 1 35 4 32 8 C 30 10 28 10 26 8 Z" fill="#00B4D8" transform="rotate(45 29 5)" />
+      <path d="M 32 25 C 29 21 31 17 35 17 C 39 17 41 21 38 25 C 36 27 34 27 32 25 Z" fill="#48CAE4" transform="rotate(15 35 21)" />
+    </g>
+
+    <!-- Middle Words: Swim Vision -->
+    <text x="0" y="132" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="56" font-weight="900" letter-spacing="-0.5">
+      <tspan fill="#185A9D">Swim </tspan>
+      <tspan fill="#00B4D8">Vision</tspan>
+    </text>
+
+    <!-- Tagline: Grandir dans l'eau, pas à pas ❤️ -->
+    <text x="2" y="172" font-family="'Caveat', 'Segoe Print', 'Brush Script MT', cursive, sans-serif" font-size="24" font-style="italic" font-weight="600" fill="#185A9D">
+      Grandir dans l'eau, pas à pas <tspan fill="#E11D48" font-style="normal">❤️</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Baby Swim Vision",
+  "description": "Assistant pédagogique intelligent pour accompagner les parents et éducateurs dans les activités de bébés nageurs.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,14 @@
+{
+  "swimgaella@gmail.com": {
+    "id": "user_admin_swimgaella",
+    "email": "swimgaella@gmail.com",
+    "name": "Gaëlla (Admin)",
+    "role": "ADMIN",
+    "subscriptionStatus": "active",
+    "lifetimeAccess": true,
+    "passwordSalt": "128eed74b774673599680750101b37a2",
+    "passwordHash": "b8cf221290fb6fbd08bfa4527539274e5b5806c3d647532cf678bbeb1fad2883d815e3bab5e0ecd794a86b25ffa29eaf5f8480dae3b17c12b5841adbca5e61d7",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-09-25T18:04:09.235Z"
+  }
+}

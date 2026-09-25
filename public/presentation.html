@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baby Swim Vision - Vidéo de Présentation Multilingue (9:16)</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: #04121d;
+        color: #f1f5f9;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 24px 16px;
+      }
+      .container {
+        max-width: 480px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      h1 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #38bdf8;
+        margin-bottom: 4px;
+      }
+      p.subtitle {
+        font-size: 14px;
+        color: #94a3b8;
+        margin-bottom: 16px;
+      }
+      .lang-bar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+        margin-bottom: 16px;
+        width: 100%;
+      }
+      .lang-btn {
+        background: rgba(255, 255, 255, 0.07);
+        color: #cbd5e1;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 20px;
+        padding: 6px 12px;
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        transition: all 0.2s ease;
+      }
+      .lang-btn:hover {
+        background: rgba(56, 189, 248, 0.15);
+        border-color: rgba(56, 189, 248, 0.35);
+        color: #38bdf8;
+      }
+      .lang-btn.active {
+        background: #0284c7;
+        border-color: #38bdf8;
+        color: #ffffff;
+        box-shadow: 0 0 12px rgba(2, 132, 199, 0.5);
+      }
+      .video-wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 360px;
+        aspect-ratio: 9 / 16;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(56, 189, 248, 0.2);
+        background: #000;
+      }
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .actions {
+        margin-top: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        max-width: 360px;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 13px 18px;
+        border-radius: 12px;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        cursor: pointer;
+        border: none;
+      }
+      .btn-primary {
+        background: linear-gradient(135deg, #0284c7, #0369a1);
+        color: #fff;
+        box-shadow: 0 4px 12px rgba(2, 132, 199, 0.35);
+      }
+      .btn-primary:hover {
+        background: linear-gradient(135deg, #0369a1, #075985);
+        transform: translateY(-1px);
+      }
+      .btn-secondary {
+        background: rgba(255, 255, 255, 0.08);
+        color: #cbd5e1;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+      }
+      .btn-secondary:hover {
+        background: rgba(255, 255, 255, 0.14);
+      }
+      .all-downloads {
+        margin-top: 20px;
+        background: rgba(15, 23, 42, 0.7);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 14px;
+        padding: 14px;
+        width: 100%;
+        max-width: 360px;
+        text-align: left;
+      }
+      .all-downloads h3 {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #94a3b8;
+        margin-bottom: 10px;
+      }
+      .download-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+      .download-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 12px;
+        color: #38bdf8;
+        text-decoration: none;
+        padding: 6px 8px;
+        border-radius: 6px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        transition: all 0.15s ease;
+      }
+      .download-item:hover {
+        background: rgba(56, 189, 248, 0.1);
+        border-color: rgba(56, 189, 248, 0.3);
+      }
+      .info-badge {
+        margin-top: 14px;
+        font-size: 12px;
+        color: #64748b;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Baby Swim Vision</h1>
+      <p class="subtitle" id="pageSubtitle">Vidéo officielle • Format 9:16 vertical (26s)</p>
+
+      <!-- Language selector bar -->
+      <div class="lang-bar" id="langBar" role="tablist">
+        <button class="lang-btn active" onclick="switchLang('fr')" id="btn-fr">🇫🇷 Français</button>
+        <button class="lang-btn" onclick="switchLang('en')" id="btn-en">🇬🇧 English</button>
+        <button class="lang-btn" onclick="switchLang('pt')" id="btn-pt">🇵🇹 Português</button>
+        <button class="lang-btn" onclick="switchLang('es')" id="btn-es">🇪🇸 Español</button>
+        <button class="lang-btn" onclick="switchLang('de')" id="btn-de">🇩🇪 Deutsch</button>
+        <button class="lang-btn" onclick="switchLang('ja')" id="btn-ja">🇯🇵 日本語</button>
+        <button class="lang-btn" onclick="switchLang('zh')" id="btn-zh">🇨🇳 中文</button>
+      </div>
+
+      <div class="video-wrapper">
+        <video
+          id="presentationVideo"
+          controls
+          playsinline
+          webkit-playsinline
+          preload="auto"
+          poster="/media/captures/01_accueil_landing.png"
+        >
+          <source id="videoSource" src="/media/presentation_baby_swim_vision.mp4" type="video/mp4" />
+          Votre navigateur ne supporte pas la lecture de cette vidéo.
+        </video>
+      </div>
+
+      <div class="actions">
+        <button id="playBtn" class="btn btn-primary" onclick="togglePlay()">
+          ▶ Lancer la lecture
+        </button>
+        <a
+          id="downloadBtn"
+          href="/media/presentation_baby_swim_vision.mp4"
+          download="presentation_baby_swim_vision.mp4"
+          class="btn btn-secondary"
+        >
+          ⬇ Télécharger en Français
+        </a>
+      </div>
+
+      <div class="all-downloads">
+        <h3>Téléchargement direct par langue</h3>
+        <div class="download-list">
+          <a class="download-item" href="/media/presentation_baby_swim_vision_fr.mp4" download>🇫🇷 Français</a>
+          <a class="download-item" href="/media/presentation_baby_swim_vision_en.mp4" download>🇬🇧 English</a>
+          <a class="download-item" href="/media/presentation_baby_swim_vision_pt.mp4" download>🇵🇹 Português</a>
+          <a class="download-item" href="/media/presentation_baby_swim_vision_es.mp4" download>🇪🇸 Español</a>
+          <a class="download-item" href="/media/presentation_baby_swim_vision_de.mp4" download>🇩🇪 Deutsch</a>
+          <a class="download-item" href="/media/presentation_baby_swim_vision_ja.mp4" download>🇯🇵 日本語</a>
+          <a class="download-item" href="/media/presentation_baby_swim_vision_zh.mp4" download>🇨🇳 中文</a>
+        </div>
+      </div>
+
+      <p class="info-badge">
+        7 langues disponibles • Full HD 1080×1920 • Encodage H.264 + AAC
+      </p>
+    </div>
+
+    <script>
+      const LANGS = {
+        fr: {
+          name: 'Français',
+          file: '/media/presentation_baby_swim_vision.mp4',
+          playText: '▶ Lancer la lecture',
+          pauseText: '❚❚ Mettre en pause',
+          replayText: '↻ Revoir la vidéo',
+          downloadText: '⬇ Télécharger en Français'
+        },
+        en: {
+          name: 'English',
+          file: '/media/presentation_baby_swim_vision_en.mp4',
+          playText: '▶ Play video',
+          pauseText: '❚❚ Pause',
+          replayText: '↻ Replay video',
+          downloadText: '⬇ Download in English'
+        },
+        pt: {
+          name: 'Português',
+          file: '/media/presentation_baby_swim_vision_pt.mp4',
+          playText: '▶ Reproduzir vídeo',
+          pauseText: '❚❚ Pausar',
+          replayText: '↻ Rever o vídeo',
+          downloadText: '⬇ Baixar em Português'
+        },
+        es: {
+          name: 'Español',
+          file: '/media/presentation_baby_swim_vision_es.mp4',
+          playText: '▶ Reproducir video',
+          pauseText: '❚❚ Pausar',
+          replayText: '↻ Volver a ver',
+          downloadText: '⬇ Descargar en Español'
+        },
+        de: {
+          name: 'Deutsch',
+          file: '/media/presentation_baby_swim_vision_de.mp4',
+          playText: '▶ Video abspielen',
+          pauseText: '❚❚ Anhalten',
+          replayText: '↻ Video wiederholen',
+          downloadText: '⬇ Auf Deutsch herunterladen'
+        },
+        ja: {
+          name: '日本語',
+          file: '/media/presentation_baby_swim_vision_ja.mp4',
+          playText: '▶ 動画を再生',
+          pauseText: '❚❚ 一時停止',
+          replayText: '↻ もう一度再生',
+          downloadText: '⬇ 日本語版をダウンロード'
+        },
+        zh: {
+          name: '中文',
+          file: '/media/presentation_baby_swim_vision_zh.mp4',
+          playText: '▶ 播放宣传视频',
+          pauseText: '❚❚ 暂停播放',
+          replayText: '↻ 重新播放',
+          downloadText: '⬇ 下载中文版本'
+        }
+      };
+
+      let currentLang = 'fr';
+      const v = document.getElementById('presentationVideo');
+      const source = document.getElementById('videoSource');
+      const playBtn = document.getElementById('playBtn');
+      const downloadBtn = document.getElementById('downloadBtn');
+
+      function switchLang(lang) {
+        if (!LANGS[lang]) return;
+        currentLang = lang;
+
+        // Update active pill
+        document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+        const activeBtn = document.getElementById('btn-' + lang);
+        if (activeBtn) activeBtn.classList.add('active');
+
+        // Update video source
+        const wasPlaying = !v.paused;
+        const currentTime = v.currentTime;
+        
+        source.src = LANGS[lang].file;
+        v.load();
+        
+        v.addEventListener('loadedmetadata', function onLoaded() {
+          v.currentTime = Math.min(currentTime, v.duration || 0);
+          if (wasPlaying) {
+            v.play().catch(() => {});
+          }
+          v.removeEventListener('loadedmetadata', onLoaded);
+        });
+
+        // Update buttons text
+        downloadBtn.href = LANGS[lang].file;
+        downloadBtn.download = LANGS[lang].file.split('/').pop();
+        downloadBtn.textContent = LANGS[lang].downloadText;
+        updatePlayBtnState();
+      }
+
+      function updatePlayBtnState() {
+        const langData = LANGS[currentLang];
+        if (v.ended) {
+          playBtn.innerHTML = langData.replayText;
+        } else if (v.paused) {
+          playBtn.innerHTML = langData.playText;
+        } else {
+          playBtn.innerHTML = langData.pauseText;
+        }
+      }
+
+      function togglePlay() {
+        if (v.paused) {
+          v.play();
+        } else {
+          v.pause();
+        }
+      }
+
+      v.addEventListener('play', updatePlayBtnState);
+      v.addEventListener('pause', updatePlayBtnState);
+      v.addEventListener('ended', updatePlayBtnState);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baby Swim Vision</title>
+    <meta name="description" content="Assistant pédagogique intelligent pour accompagner les parents et éducateurs dans les activités de bébés nageurs." />
+    <meta property="og:title" content="Baby Swim Vision" />
+    <meta property="og:description" content="Assistant pédagogique intelligent pour accompagner les parents et éducateurs dans les activités de bébés nageurs." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/media/logo 2-1.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/jpeg" href="/media/logo 2-1.jpg" />
+    <link rel="apple-touch-icon" href="/media/logo 2-1.jpg" />
+    <script>
+      // Prevent benign sandbox Vite HMR WebSocket connection warnings from bubbling as unhandled exceptions
+      window.addEventListener('unhandledrejection', function (e) {
+        var str = String((e && (e.reason || e.message)) || '');
+        if (
+          str.includes('WebSocket') ||
+          str.includes('[vite]') ||
+          str.includes('closed without opened') ||
+          str.includes('failed to connect')
+        ) {
+          e.preventDefault && e.preventDefault();
+          e.stopImmediatePropagation && e.stopImmediatePropagation();
+        }
+      });
+      window.addEventListener('error', function (e) {
+        var str = String((e && (e.message || e.error)) || '');
+        if (
+          str.includes('WebSocket') ||
+          str.includes('[vite]') ||
+          str.includes('closed without opened')
+        ) {
+          e.preventDefault && e.preventDefault();
+          e.stopImmediatePropagation && e.stopImmediatePropagation();
+          return true;
+        }
+      }, true);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>
+

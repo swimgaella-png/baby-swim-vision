@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Validation des Captures Réelles - Baby Swim Vision</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #09131f;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      padding: 32px 16px;
+      line-height: 1.5;
+    }
+    .header {
+      max-width: 1200px;
+      margin: 0 auto 32px;
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #38bdf8;
+      margin-bottom: 8px;
+    }
+    .header p {
+      color: #94a3b8;
+      font-size: 16px;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(56, 189, 248, 0.15);
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #0f1e2e;
+      border: 1px solid #1e293b;
+      border-radius: 20px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #38bdf8;
+    }
+    .card-header {
+      padding: 16px 20px;
+      background: #132437;
+      border-bottom: 1px solid #1e293b;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card-num {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: #0284c7;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .card-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #f8fafc;
+      flex: 1;
+      margin-left: 12px;
+    }
+    .img-wrapper {
+      position: relative;
+      width: 100%;
+      background: #000;
+      aspect-ratio: 9 / 16;
+      max-height: 480px;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .img-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      cursor: zoom-in;
+    }
+    .card-body {
+      padding: 16px 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card-desc {
+      font-size: 14px;
+      color: #94a3b8;
+      margin-bottom: 12px;
+    }
+    .card-meta {
+      font-size: 12px;
+      color: #38bdf8;
+      font-weight: 600;
+    }
+    .actions {
+      text-align: center;
+      margin-top: 40px;
+      padding: 24px;
+      background: #0f1e2e;
+      border-radius: 20px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid #1e293b;
+    }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #0284c7, #0369a1);
+      color: white;
+      padding: 14px 28px;
+      border-radius: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="badge">Captures Authentiques 100% Réelles</div>
+    <h1>Écrans Clés de Baby Swim Vision</h1>
+    <p>Ces captures proviennent directement de votre application en cours d'exécution. Validez la sélection avant la génération de la vidéo 9:16.</p>
+  </div>
+
+  <div class="grid">
+    <!-- Écran 1 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-num">1</div>
+        <div class="card-title">Accueil & Accompagnement</div>
+      </div>
+      <div class="img-wrapper">
+        <a href="/media/captures/01_accueil_landing.png" target="_blank">
+          <img src="/media/captures/01_accueil_landing.png" alt="Accueil Landing" />
+        </a>
+      </div>
+      <div class="card-body">
+        <p class="card-desc">Page d'accueil officielle : titre, promesse pédagogique bienveillante et bouton d'accès à l'application.</p>
+        <span class="card-meta">Vue : LandingPage</span>
+      </div>
+    </div>
+
+    <!-- Écran 2 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-num">2</div>
+        <div class="card-title">Tableau de Bord & Profil Léo</div>
+      </div>
+      <div class="img-wrapper">
+        <a href="/media/captures/02_tableau_de_bord.png" target="_blank">
+          <img src="/media/captures/02_tableau_de_bord.png" alt="Tableau de bord" />
+        </a>
+      </div>
+      <div class="card-body">
+        <p class="card-desc">Tableau de bord de suivi : profil actif de Léo (8 mois), indicateurs d'aisance et raccourcis d'analyse.</p>
+        <span class="card-meta">Vue : Dashboard</span>
+      </div>
+    </div>
+
+    <!-- Écran 3 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-num">3</div>
+        <div class="card-title">Studio d'Enregistrement & Choix Vidéo</div>
+      </div>
+      <div class="img-wrapper">
+        <a href="/media/captures/03_studio_video.png" target="_blank">
+          <img src="/media/captures/03_studio_video.png" alt="Studio Vidéo" />
+        </a>
+      </div>
+      <div class="card-body">
+        <p class="card-desc">Interface d'enregistrement au bord du bassin, sélection de fichier et scénarios types d'exercices.</p>
+        <span class="card-meta">Vue : VideoRecorderUpload</span>
+      </div>
+    </div>
+
+    <!-- Écran 4 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-num">4</div>
+        <div class="card-title">Analyse IA & Débriefing Biomécanique</div>
+      </div>
+      <div class="img-wrapper">
+        <a href="/media/captures/04_resultat_analyse_ia.png" target="_blank">
+          <img src="/media/captures/04_resultat_analyse_ia.png" alt="Résultat Analyse IA" />
+        </a>
+      </div>
+      <div class="card-body">
+        <p class="card-desc">Débriefing détaillé : portage ventral, score de détente (88/100), repères d'orientation et conseils personnalisés.</p>
+        <span class="card-meta">Vue : AnalysisResultView</span>
+      </div>
+    </div>
+
+    <!-- Écran 5 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-num">5</div>
+        <div class="card-title">Vidéothèque & Fiches Pratiques</div>
+      </div>
+      <div class="img-wrapper">
+        <a href="/media/captures/05_videotheque_pedagogique.png" target="_blank">
+          <img src="/media/captures/05_videotheque_pedagogique.png" alt="Bibliothèque Pédagogique" />
+        </a>
+      </div>
+      <div class="card-body">
+        <p class="card-desc">Catalogue pédagogique structuré : exercices par niveau, immersion progressive et fiches réflexes.</p>
+        <span class="card-meta">Vue : PedagogicalLibraryView</span>
+      </div>
+    </div>
+
+    <!-- Écran 6 -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-num">6</div>
+        <div class="card-title">Carte Interactive « Trouver mon club »</div>
+      </div>
+      <div class="img-wrapper">
+        <a href="/media/captures/06_trouver_mon_club.png" target="_blank">
+          <img src="/media/captures/06_trouver_mon_club.png" alt="Trouver mon club" />
+        </a>
+      </div>
+      <div class="card-body">
+        <p class="card-desc">Carte interactive géolocalisée répertoriant les clubs bébé nageur et piscines adaptées certifiés.</p>
+        <span class="card-meta">Vue : FindClubView</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="actions">
+    <h2 style="margin-bottom: 8px; font-size: 20px;">Ces 6 écrans correspondent-ils à vos attentes ?</h2>
+    <p style="color: #94a3b8; margin-bottom: 20px;">Vous pouvez valider cette sélection pour générer la vidéo finale 9:16 ou me demander d'intervertir un écran.</p>
+  </div>
+</body>
+</html>

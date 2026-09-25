@@ -1,0 +1,26 @@
+{
+  "||brest|france": {
+    "lat": 48.406435,
+    "lng": -4.497735,
+    "displayName": "Brest",
+    "precision": "city"
+  },
+  "|29000|quimper|france": {
+    "lat": 47.998695,
+    "lng": -4.093228,
+    "displayName": "Quimper",
+    "precision": "city"
+  },
+  "||rennes|france": {
+    "lat": 48.110899,
+    "lng": -1.68365,
+    "displayName": "Rennes",
+    "precision": "city"
+  },
+  "|44000|nantes|france": {
+    "lat": 47.239367,
+    "lng": -1.555335,
+    "displayName": "Nantes",
+    "precision": "city"
+  }
+}

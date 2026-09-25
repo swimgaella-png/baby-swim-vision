@@ -1,0 +1,59 @@
+[
+  {
+    "id": "club_quimper_ergue",
+    "name": "Aqua Forme — Bébés Nageurs & Jardin Aquatique",
+    "managerName": "Planchette Gérard / Planchette Gaëlla",
+    "email": "aquaformecontact@orange.fr",
+    "phone": "02 98 90 27 26",
+    "website": "https://www.piscine-aqua-forme-quimper.fr/",
+    "bookingUrl": "https://babyswimvision.com/reserver",
+    "address": "Allée du Rouillen",
+    "postalCode": "29500",
+    "city": "Ergué-Gabéric",
+    "region": "Bretagne",
+    "country": "France",
+    "latitude": 47.9977179,
+    "longitude": -4.0535259,
+    "description": "Structure d'éveil aquatique et de bébés nageurs appliquant la méthode bienveillante Baby Swim Vision. Bassin d'apprentissage chauffé à 32°C avec ligne d'eau adaptée et matériel psychomoteur complet. une vidéo de votre 1ère immersion vous sera offerte.",
+    "activities": [
+      "bebes_nageurs",
+      "eveil_aquatique",
+      "familiarisation",
+      "parent_bebe",
+      "seances_collectives",
+      "jardin_aquatique"
+    ],
+    "minAgeMonths": 4,
+    "maxAgeMonths": 48,
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "groupType": "mixte",
+    "accessibility": true,
+    "accessibilityDetails": "Accès PMR complet, vestiaires et rampes adaptés aux poussettes et fauteuils, tables à langer ergonomiques chauffées.",
+    "team": "Équipe diplômée d'État (BEESAN / BPJEPS AAN) avec spécialisation petite enfance et certification méthode Baby Swim Vision.",
+    "qualifications": "BEESAN, BPJEPS AAN, Agrément Jeunesse et Sports, Certificat Fédéral Bébés Nageurs, Formation Périnatalité",
+    "poolInformation": {
+      "waterTemperatureC": 32,
+      "poolType": "Bassin d'apprentissage chauffé dédié (32°C)",
+      "hygieneNotes": "Filtration continue à l'ozone sans odeur de chlore agressive pour la peau et les yeux des bébés, contrôle sanitaire ARS."
+    },
+    "photos": [
+      "/media/structure/9TER.jpg",
+      "/media/structure/IMG_0690.JPG",
+      "/media/structure/IMG_0694.JPG",
+      "/media/structure/P2250132.JPG",
+      "/media/structure/WP_001257.jpg"
+    ],
+    "status": "validated",
+    "isRecommended": true,
+    "isAnchored": true,
+    "submittedAt": "2026-01-01T10:00:00.000Z",
+    "validatedAt": "2026-01-01T10:00:00.000Z",
+    "updatedAt": "2026-09-20T10:36:44.095Z",
+    "logo": "",
+    "adminModified": true,
+    "isLockedByAdmin": true
+  }
+]

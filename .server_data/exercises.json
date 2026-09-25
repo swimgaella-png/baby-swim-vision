@@ -1,0 +1,219 @@
+[
+  {
+    "id": "exo_immersion_verticale_face_face",
+    "title": "L'Immersion Complice en Portage Vertical (1ère immersion de référence)",
+    "objective": "Initier en toute sécurité la toute première immersion de bébé en position verticale, enveloppé contre le torse du parent avec immersion conjointe et câlin rassurant.",
+    "level": "decouverte",
+    "recommendedAge": "4 à 18 mois",
+    "situationCategory": "immersion",
+    "image": "/media/articles/premiere-immersion-7-secondes.webp",
+    "steps": [
+      "Placez votre bébé à la verticale contre votre poitrine, maintenu fermement mais avec douceur sous les aisselles et le bas du dos.",
+      "Établissez un contact visuel direct, souriez et annoncez doucement l'action (ex: 'Attention... on va sous l'eau ensemble !').",
+      "Fléchissez vos jambes et descendez sous l'eau ensemble (immersion conjointe) pendant 1 à 1,5 seconde maximum.",
+      "Remontez immédiatement à la surface dans un mouvement fluide, collez votre joue contre la sienne, félicitez-le chaleureusement et offrez-lui un grand câlin rassurant."
+    ],
+    "commonMistakes": [
+      "Pousser le bébé seul sous l'eau à distance ou à bout de bras.",
+      "Secouer le bébé ou essuyer frénétiquement son visage à l'émersion.",
+      "Montrer un visage inquiet ou anxieux qui transmet du stress au bébé."
+    ],
+    "corrections": [
+      "Restez au contact physique direct : la proximité de votre buste et votre voix apaisent instantanément.",
+      "Laissez les gouttelettes s'écouler naturellement tout en souriant et en l'embrassant.",
+      "Gardez un rythme respiratoire posé et calme avant et après l'immersion."
+    ],
+    "safetyTips": [
+      "L'immersion ne doit jamais excéder 1 à 2 secondes chez le nourrisson.",
+      "Toujours s'assurer d'avoir un appui plantaire stable au sol de la piscine.",
+      "Observer l'apaisement du bébé : espacer de 3 à 5 minutes de jeux calmes avant une autre immersion (max 2 à 3 par séance)."
+    ],
+    "duration": "1 à 2 secondes d'immersion",
+    "repetition": "2 à 3 fois maximum par séance",
+    "tags": [
+      "1ère immersion",
+      "Portage vertical",
+      "Face-à-face",
+      "Sécurité affective",
+      "Immersion conjointe"
+    ],
+    "imageDefault": "/media/articles/premiere-immersion-7-secondes.webp",
+    "imageSource": "default",
+    "isLockedByAdmin": false
+  },
+  {
+    "id": "exo_tapis_volant",
+    "title": "Le Petit Bateau / La Glisse Horizontale",
+    "objective": "Favoriser l'alignement horizontal du corps et détendre les hanches pour une meilleure flottaison.",
+    "level": "decouverte",
+    "recommendedAge": "4 à 18 mois",
+    "situationCategory": "portage",
+    "image": "/media/articles/seance-bebe-nageur-pas-cours-natation.webp",
+    "steps": [
+      "Placez vos mains sous la poitrine et la cage thoracique de bébé (pouces en haut, doigts sous le thorax).",
+      "Abaissez-vous dans l'eau jusqu'à avoir vos propres épaules au niveau de la surface.",
+      "Faites glisser doucement bébé vers l'avant à vitesse constante : l'eau va naturellement soulever ses jambes.",
+      "Chantez une comptine douce en avançant de 2 à 3 mètres."
+    ],
+    "commonMistakes": [
+      "Garder les épaules hors de l'eau, ce qui force bébé à se redresser à la verticale.",
+      "Serrer trop fort la cage thoracique ou tirer sur les bras.",
+      "Avancer par à-coups saccadés."
+    ],
+    "corrections": [
+      "Fléchissez vos jambes pour descendre à hauteur de bébé.",
+      "Ouvrez vos paumes : le bébé doit reposer sur vos mains comme sur un coussin.",
+      "Créez un mouvement de vague doux et continu."
+    ],
+    "safetyTips": [
+      "Gardez le menton et la bouche de bébé toujours dégagés de l'eau.",
+      "Ne lâchez jamais le contact tactile.",
+      "Maintenez un regard complice et souriant."
+    ],
+    "duration": "2 à 3 minutes par séquence",
+    "repetition": "3 passages de glisse",
+    "tags": [
+      "Horizontalité",
+      "Glisse",
+      "Détente"
+    ],
+    "imageDefault": "/media/articles/seance-bebe-nageur-pas-cours-natation.webp",
+    "imageSource": "default",
+    "isLockedByAdmin": false
+  },
+  {
+    "id": "exo_etoile_dorsale",
+    "title": "L'Étoile de Mer Dorsale & Flottaison Active",
+    "objective": "Familiariser avec la flottaison dorsale, accepter l'immersion des oreilles et dynamiser la posture selon l'âge par des déplacements doux.",
+    "level": "confiance",
+    "recommendedAge": "3 à 24 mois (évolution vers 7-8 mois)",
+    "situationCategory": "flottaison",
+    "image": "/media/articles/decouverte-eau-motricite.webp",
+    "steps": [
+      "Pour les plus petits (3-6 mois) : Soutenez la tête sur votre avant-bras ou épaule, une main sous les fesses. Laissez bébé découvrir la sensation passive d'être porté par l'eau.",
+      "Immerger doucement les oreilles dans l'eau chaude : l'eau dans les oreilles ne fait pas mal et permet une découverte sensorielle auditive nouvelle.",
+      "Cap des 7-8 mois (refus du dos passif) : Tenez bébé sous les aisselles et au niveau des omoplates de manière sécurisante. Ne cherchez pas à le maintenir immobile s'il veut bouger.",
+      "Dynamiser la position selon l'âge : déplacez bébé dans l'eau — avancez doucement, ralentissez, faites un virage souple, une accélération douce, puis demi-tour !",
+      "Animez avec la voix et le regard complice : encouragez votre enfant avec un sourire constant et des intonations chaleureuses pour le sécuriser et le stimuler.",
+      "Le regard comme point de repère : Placez-vous pour qu'il cherche vos yeux, ce qui incline naturellement sa tête dans une position optimale, l'arrière posé dans l'eau."
+    ],
+    "commonMistakes": [
+      "Interpréter le refus du dos vers 7-8 mois comme une peur de l'eau (c'est simplement son besoin d'exploration et d'action motrice, comme sur la table à langer).",
+      "Vouloir forcer le bébé à rester immobile sur le dos alors qu'il a besoin de mouvement.",
+      "Maintenir la tête trop haute hors de l'eau, ce qui cambre la nuque et fait couler le bassin.",
+      "Forcer la tête dans l'eau si le bébé montre de l'inconfort."
+    ],
+    "corrections": [
+      "Rendre la position dorsale dynamique et ludique dès 7 mois avec des déplacements continus et des changements de trajectoire.",
+      "Utiliser le regard et la voix expressive comme boussole pour garder la tête bien alignée.",
+      "Laisser l'eau entourer doucement la tête et les oreilles sans forcer.",
+      "Adapter immédiatement si bébé relève la tête ou détourne le regard."
+    ],
+    "safetyTips": [
+      "Toujours garder le nez et la bouche parfaitement dégagés au-dessus de la ligne d'eau.",
+      "Adapter la situation sans jamais forcer : si bébé s'agite ou s'arc-boute, revenez à un portage vertical sécurisant.",
+      "Soutien bimanuel ferme et doux sous les aisselles et les omoplates."
+    ],
+    "duration": "2 à 4 minutes par séquence",
+    "repetition": "3 à 4 parcours de glisse avec pauses câlins",
+    "tags": [
+      "Étoile dorsale",
+      "Flottaison active",
+      "7-8 mois",
+      "Oreilles immergées",
+      "Équilibre dorsal"
+    ],
+    "evolutionGuide": {
+      "title": "La position dorsale : une étape essentielle… qui évolue avec l'âge",
+      "whyRefusalAt7Months": "Vers 7-8 mois, le bébé devient beaucoup plus mobile et actif (il se retourne, attrape, change de position). La position dorsale passive lui semble trop monotone, exactement comme sur la table à langer lorsqu'il se tortille et pousse sur ses jambes. Ce n'est pas une peur de l'eau, il vous dit simplement : « Je veux bouger ! »",
+      "howToMakeActive": "En soutenant le bébé sous les aisselles et les omoplates, transformez la flottaison en jeu de déplacement dynamique : avancer, ralentir, virer doucement, changer d'axe, faire demi-tour. Le bébé devient pleinement acteur de son mouvement !",
+      "eyeContactTip": "Votre visage est son point de repère absolu. En cherchant votre regard au-dessus de lui, il conserve naturellement l'arrière de la tête posé dans l'eau et les oreilles immergées sans appréhension.",
+      "developmentalStages": [
+        "Étape 1 (3-6 mois) : « L'eau me porte » (découverte de la flottabilité et de l'abandon confiant)",
+        "Étape 2 (7-12 mois) : « Je peux bouger dans cette position » (dynamisation, glisse et déplacements continus)",
+        "Étape 3 (> 12 mois) : « Je peux agir sur mon environnement » (propulsion active et autonomie motrice)"
+      ],
+      "quotes": [
+        "« Plus le bébé devient acteur sur la terre ferme, plus nous devons lui permettre de devenir acteur dans l'eau. »"
+      ]
+    },
+    "imageDefault": "/media/articles/decouverte-eau-motricite.webp",
+    "imageSource": "default",
+    "isLockedByAdmin": false
+  },
+  {
+    "id": "exo_petit_plongeon_rituel",
+    "title": "Le Rituel des 3 Petites Gouttes",
+    "objective": "Préparer en douceur l'apnée réflexe et sécuriser le passage de la tête sous l'eau.",
+    "level": "confiance",
+    "recommendedAge": "6 à 24 mois",
+    "situationCategory": "immersion",
+    "image": "/media/articles/securisation-soutiens.webp",
+    "steps": [
+      "Placez-vous face à votre bébé, à sa hauteur, avec un large sourire.",
+      "Prenez un peu d'eau dans le creux de votre main et dites distinctement : \"Attention... 1, 2, 3... Plouf !\"",
+      "Au mot \"Plouf\", soufflez doucement sur son front pour déclencher le réflexe de fermeture des yeux et de la bouche.",
+      "Versez un mince filet d'eau sur le sommet de sa tête, puis félicitez-le immédiatement avec un grand câlin."
+    ],
+    "commonMistakes": [
+      "Immerger bébé par surprise sans aucun signal sonore ou visuel.",
+      "Projeter de l'eau violemment dans les yeux ou les narines.",
+      "Avoir un visage inquiet ou anxieux qui alerte le bébé."
+    ],
+    "corrections": [
+      "Répétez toujours exactement la même formule mélodieuse.",
+      "Faites d'abord l'exercice sur vous-même devant lui en riant.",
+      "Restez toujours joyeux et ultra-positif après l'action."
+    ],
+    "safetyTips": [
+      "Une immersion ne doit jamais dépasser 1 à 2 secondes chez le nourrisson.",
+      "Ne forcez jamais un enfant qui pleure ou manifeste un refus clair."
+    ],
+    "duration": "3 à 4 répétitions espacées",
+    "repetition": "Séances courtes",
+    "tags": [
+      "Immersion",
+      "Rituel",
+      "Apnée réflexe"
+    ],
+    "imageDefault": "/media/articles/securisation-soutiens.webp",
+    "imageSource": "default",
+    "isLockedByAdmin": false
+  },
+  {
+    "id": "exo_chasse_aux_canards",
+    "title": "Le Canoë des Petits Pieds",
+    "objective": "Stimuler la motricité propulsive spontanée des jambes par le jeu visuel.",
+    "level": "autonomie",
+    "recommendedAge": "8 mois à 3 ans",
+    "situationCategory": "deplacements",
+    "image": "/media/articles/brassards-pour-ou-contre.webp",
+    "steps": [
+      "Positionnez bébé à l'horizontale dans l'eau, soutenu sous les aisselles.",
+      "Disposez un canard flottant coloré à 40 cm devant ses yeux.",
+      "Encouragez-le d'une voix enjouée : \"Va chercher le canard !\"",
+      "Accompagnez sa glisse dès qu'il esquisse un mouvement de pieds ou de bras pour qu'il ressente la propulsion."
+    ],
+    "commonMistakes": [
+      "Placer le jouet trop loin, ce qui décourage le bébé.",
+      "Freiner son élan en le retenant trop fermement par la taille."
+    ],
+    "corrections": [
+      "Rapprochez le jouet pour garantir un succès immédiat en 3 secondes.",
+      "Allégez votre prise dès qu'il donne un coup de pied pour qu'il voie l'effet direct sur son avancée."
+    ],
+    "safetyTips": [
+      "Vérifiez la température de l'eau (doit être entre 31°C et 33°C pour éviter les frissons moteurs)."
+    ],
+    "duration": "3 à 5 minutes",
+    "repetition": "4 allers-retours vers le jouet",
+    "tags": [
+      "Propulsion",
+      "Battements",
+      "Jeu"
+    ],
+    "imageDefault": "/media/articles/brassards-pour-ou-contre.webp",
+    "imageSource": "default",
+    "isLockedByAdmin": false
+  }
+]
